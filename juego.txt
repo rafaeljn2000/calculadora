@@ -1,0 +1,44 @@
+1.-Inicio
+2.-Declarar     numero_usuaroi(INT)
+		numero_secreto(INT)
+		nombre(STR)
+		resultado(BOOL)
+		
+3.-Asignar 	numero_secreto=random(1,100)
+
+4.-Mostrar "*"*5,"BIENVENIDO AL JUEGO DE ADIVINAR EL NUMERO", "*"*5 
+
+5.-Mostrar "Escribe tu nombre"
+
+6.-Asignar nombre
+
+7.- SI longitud(nombre)>10 entonces
+	Mostrar "Formato de nombre no permitido"
+	
+    SINO 	
+
+	Mostrar nombre, "Adivina el número secreto"
+	Asignar numero_usuario
+
+		SI numero_usuario<100 and numero_usuario>0 entonces
+		
+			si numero_usuario==numero_secreto etonces
+			Mostrar "Feliciades adivinaste el numero"
+			SINO ENTONCES
+			MOSTRAR	"Lastima :( no le atinaste"
+			FIN SI
+
+			
+
+		Mostrar "El resultado de tu intento es:",resultado
+		
+		SINO 
+		Mostrar "El número esta fuera del rango 1-100"
+		FINSI 
+	
+    FINSI
+
+
+
+
+.-Fin
